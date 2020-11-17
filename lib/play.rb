@@ -42,8 +42,16 @@ end
 
 def play(board)
   current_turn = 1
+<<<<<<< HEAD
   while current_turn < 10
     turn(board)
     current_turn += 1
   end
 end
+=======
+  while current_turn < 9
+    current_turn =+ 1
+    turn(board)
+  end
+end
+>>>>>>> f58bff55dd2e483a8f12e4d6fe8e402c5f775a2e
